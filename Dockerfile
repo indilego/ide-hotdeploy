@@ -4,7 +4,7 @@ VOLUME /tmp
 ADD gs-spring-boot-0.1.0.jar app.jar
 RUN sh -c 'touch /app.jar'
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
-ENV JAVA_OPTS "-Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=0.0.0.0:8787,suspend=n"
+ENV JAVA_OPTS "-agentlib:jdwp=transport=dt_socket,address=8787,server=y,suspend=n"
 
 ENV PATH $PATH:$JAVA_HOME/bin
 
