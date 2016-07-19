@@ -15,6 +15,6 @@ RUN cp /app.jar /home/share
 RUN cd /home/share/ && unzip -q app.jar
 RUN chmod -R 777 /home/share
 
-EXPOSE 8080 8000 8787
+EXPOSE 8080 8787
 
 CMD ["/bin/sh", "-c", "java $JAVA_OPTS org.springframework.boot.loader.JarLauncher"] 
