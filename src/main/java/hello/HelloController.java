@@ -8,14 +8,14 @@ public class HelloController {
     
     @RequestMapping("/")
     public String index() {
-    	String a="Hola 7";
+    	String a="Hola 9";
     	int z=1;
     	String salida="";
     	
     	String b="Adios ";
     	
     	//salida=f();
-        return salida+z+a+b+"Cambiado 43";
+        return salida+z+a+b+"Cambiado 50";
     	
     }
 
