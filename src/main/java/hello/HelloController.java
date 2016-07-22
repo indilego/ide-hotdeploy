@@ -8,17 +8,22 @@ public class HelloController {
     
     @RequestMapping("/")
     public String index() {
-    	String a="Hola ";
-    	int z=0;
-    	//String salida=llamada("ok");
-    	String salida="1";
-    	String b="Adios 1111";
-        return salida+z+a+b+"Cambiado 2";
+    	String a="Hola 7";
+    	int z=1;
+    	String salida="";
+    	
+    	String b="Adios ";
+    	
+    	//salida=f();
+        return salida+z+a+b+"Cambiado 43";
+    	
     }
 
-	/*private String llamada(String string) {
+/*    private String f() {
 		// TODO Auto-generated method stub
-		return"ko";
+		return "fffffffffffff";
 	}*/
 
 }
+
+
