@@ -9,7 +9,7 @@ public class HelloController {
     @RequestMapping("/")
     public String index() {
     	String a="Hola 9";
-    	int z=1;
+    	int z=2;
     	String salida="";
     	
     	String b="Adios ";
